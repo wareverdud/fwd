@@ -1,0 +1,81 @@
+h1 {
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  background-color: papayawhip;
+  font-family: system-ui;
+  text-align: center;
+  font-size: large;
+}
+
+a {
+  padding: 10px;
+}
+
+img {
+  padding: 10px;
+  width: 2%;
+  height: 2%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.projects {
+  text-align: left;
+}
+
+p.projects {
+  padding: 40px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+li.projects {
+  /* margin-right: 50%; */
+  margin-right: 20%;
+  margin-top: 30px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+#bio {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+.meme {
+  width: 25%;
+  height: 25%;
+}
+
+.meme-text {
+  font-weight: bold;
+}
