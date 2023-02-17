@@ -55,20 +55,8 @@ li.projects {
 }
 
 .container {
-  display: table;
-  width: 100%;
-}
-
-#left {
-  position: absolute;
-  left: 0;
-  width: 50%;
-}
-
-#right {
-  position: absolute;
-  right: 0;
-  width: 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .api-image {
