@@ -37,15 +37,15 @@ p.projects {
 }
 
 li.projects {
-  /* margin-right: 50%; */
   margin-right: 20%;
   margin-top: 30px;
 }
 
 #footer {
   position: fixed;
-  left: 0;
+  left: 40px;
   bottom: 0;
+  text-align: left;
 }
 
 #bio {
@@ -59,23 +59,24 @@ li.projects {
   width: 100%;
 }
 
-.left {
+#left {
   position: absolute;
-  left: 0px;
+  left: 0;
   width: 50%;
 }
 
-.right {
+#right {
   position: absolute;
-  right: 0px;
+  right: 0;
   width: 50%;
 }
 
-.meme {
+.api-image {
   width: 25%;
   height: 25%;
 }
 
-.meme-text {
-  font-weight: bold;
+.generated-images {
+  width: 70%;
+  height: 70%;
 }
