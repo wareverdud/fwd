@@ -5,9 +5,7 @@ const right = document.getElementById('right')
 
 const getId = async () => {
   const response = await fetch('https://fwd.innopolis.app/api/hw2?' + params.toString())
-  const json = await response.json()
-  console.log(json)
-  return json
+  return await response.json()
 }
 
 const getImage = async () => {
