@@ -1,0 +1,30 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js",
+    "watch": "rollup --config rollup.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wareverdud/fwd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wareverdud/fwd/issues"
+  },
+  "homepage": "https://github.com/wareverdud/fwd#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.18.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
