@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bio</title>
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-  <h1>
-    <img src="img/hi.gif" alt="Hand does 'Hi'">Hello I'm Ruslan Khakimov
-  </h1>
-  <p id="bio">I'm a 3rd student in Innopolis University. I'm interested in web devepolment,
-    particularly in frontend development. I have a bit of experience in frontend and 
-    now I'm trying to get better at it and achieve more experience</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>
+      <img src="img/hi.gif" alt="Hand does 'Hi'" />Hello I'm Ruslan Khakimov
+    </h1>
+    <p id="bio">
+      I'm a 3rd student in Innopolis University. I'm interested in web
+      devepolment, particularly in frontend development. I have a bit of
+      experience in frontend and now I'm trying to get better at it and achieve
+      more experience
+    </p>
 
-  <div class="container">
-    <div id="left">
-      <p class="projects">My projects:</p>
-      <ul>
-        <li class="projects">
-          A web application that allows you to translate text from one language into several other selected languages at once.
-          The site was created using the React library and uses a library that allows you to translate text through the Google engine.
-        </li>
-        <li class="projects">
-          A telegram bot that allows you to find duplicate songs in playlists in Yandex.Music.
-          The bot is written in Python, the library is used to work with the Yandex.Music API.
-        </li>
-      </ul>
+    <div class="container">
+      <div id="left">
+        <p class="projects">My projects:</p>
+        <ul>
+          <li class="projects">
+            A web application that allows you to translate text from one
+            language into several other selected languages at once. The site was
+            created using the React library and uses a library that allows you
+            to translate text through the Google engine.
+          </li>
+          <li class="projects">
+            A telegram bot that allows you to find duplicate songs in playlists
+            in Yandex.Music. The bot is written in Python, the library is used
+            to work with the Yandex.Music API.
+          </li>
+        </ul>
+      </div>
+
+      <div id="right"></div>
     </div>
 
-    <div id="right">
-    </div>
-  </div>
+    <nav id="footer">
+      Contacts:
+      <a href="https://t.me/wareverdud" id="tg-link">
+        <img src="img/telegram.png" alt="TelegramImage" />Telegram</a
+      >
 
-  <nav id="footer">
-    Contacts:
-    <a href="https://t.me/wareverdud" id="tg-link">
-      <img src="img/telegram.png" alt="TelegramImage">Telegram</a>
+      <a href="https://github.com/wareverdud" id="gh-link">
+        <img src="img/github.png" alt="GithubImage" />Github</a
+      >
 
-    <a href="https://github.com/wareverdud" id="gh-link">
-      <img src="img/github.png" alt="GithubImage">Github</a>
-  
-    <a href="mailto:ru.khakimov@innopolis.university" id="email">
-      <img src="img/mail.png" alt="GmailImage">Mail</a>
-  </nav>
+      <a href="mailto:ru.khakimov@innopolis.university" id="email">
+        <img src="img/mail.png" alt="GmailImage" />Mail</a
+      >
+    </nav>
 
-  <script src="dist/bundle.js"></script>
-</body>
+    <script src="dist/bundle.js"></script>
+  </body>
 </html>
