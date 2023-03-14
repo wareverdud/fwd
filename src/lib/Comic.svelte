@@ -1,7 +1,7 @@
 <script lang="ts">
   const email: string = "ru.khakimov@innopolis.university"
   
-  interface Image {
+  interface Comic {
     day: string;
     month: string;
     year: string;
@@ -18,7 +18,7 @@
     return await idResponse.json();
   }
 
-  async function getImage(): Promise<Image> {
+  async function getComic(): Promise<Comic> {
     const id: number = await getId();
     const queryParams: URLSearchParams = new URLSearchParams({
       num: id.toString(),
@@ -29,7 +29,7 @@
     return await imageResponse.json();
   }
 
-  const img: Promise<Image> = getImage();
+  const img: Promise<Comic> = getComic();
 </script>
 
 <div>
